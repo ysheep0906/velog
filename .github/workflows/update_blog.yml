@@ -7,7 +7,7 @@ on:
         - main 
   workflow_dispatch:	# 수동 실행 트리거 추가
   schedule:
-    - cron: '0 0 * * *' # 매일 자정에 실행
+    - cron: '0 * * * *' # 매일 자정에 실행
 
 jobs:
   update_blog:
